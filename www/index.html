@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title></title>
+
+        <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+        <link href="css/ionic.app.css" rel="stylesheet">
+        -->
+
+        <!-- ionic/angularjs js -->
+        <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+        <!-- cordova script (this will be a 404 during development) -->
+        <script src="cordova.js"></script>
+     
+        <!-- your app's js -->
+        <script src="js/ng-cordova-beacon.min.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+    <body ng-app="starter">
+
+    <ion-pane>
+        <ion-header-bar class="bar-stable">
+            <h1 class="title">iBEACON </h1>
+        </ion-header-bar>
+        <ion-content >
+            <!--<h1>Cordova iBeacon</h1>
+            <p>This app displays the nearest ranged beacon and monitors region enter/exit events. Before the app will work you need to add your beacons by editing the variables mRegions and mRegionData in file app.js.</p>
+            -->
+            
+            <span id="refresh"></span>
+            </br></br>
+            <span id="refresh1"></span>
+            </br>
+            <span id="refresh4"></span>
+            </br></br>
+            <span id="refresh3"></span>
+            </br>
+            <span id="refresh2"></span>
+            
+            <ul id="beacon" class="dynamic"></ul>
+
+            <ul id="events" class="dynamic"></ul>
+            
+            
+        </ion-content>
+    </ion-pane>
+</body>
+</html>
